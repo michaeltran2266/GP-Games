@@ -49,12 +49,13 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.3.4f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/ScaleLerping.cs" />
+    <Compile Include="Assets/Scripts/ColorLerper.cs" />
     <Compile Include="Assets/Scripts/MathDemo2.cs" />
     <Compile Include="Assets/Scripts/HelloCube.cs" />
-    <Compile Include="Assets/InterpolationDemo.cs" />
-    <Compile Include="Assets/ScaleLerping.cs" />
     <Compile Include="Assets/Scripts/MathDemo.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
+    <Compile Include="Assets/Scripts/InterpolationDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
