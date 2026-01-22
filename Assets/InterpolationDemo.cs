@@ -9,15 +9,21 @@ public class InterpolationDemo : MonoBehaviour
 
     void Start()
     {
-        if(!player)
+        if (!player)
         {
-            player = GameObject.FindGameObjectWithTag("Player").transform;
+            if(GameObject.FindGameObjectWithTag("Player"))
+            {
+                player = GameObject.FindGameObjectWithTag("Player").transform;
+            }
         }
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(!player)
+            return;
+
         float step = Time.deltaTime * speed;
         // transform.position = Vector3.Lerp(transform.position, player.position, step);
         transform.position = Vector3.MoveTowards(transform.position, player.position, step);

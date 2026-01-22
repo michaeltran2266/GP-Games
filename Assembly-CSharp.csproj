@@ -52,6 +52,7 @@
     <Compile Include="Assets/Scripts/MathDemo2.cs" />
     <Compile Include="Assets/Scripts/HelloCube.cs" />
     <Compile Include="Assets/InterpolationDemo.cs" />
+    <Compile Include="Assets/ScaleLerping.cs" />
     <Compile Include="Assets/Scripts/MathDemo.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
   </ItemGroup>
